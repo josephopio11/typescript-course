@@ -13,6 +13,7 @@ anything = 1;
 anything = "Hello";
 console.log(anything.length);
 anything = true; // all these assignment statements are valid because of the any type
+// However, using 'any' defeats the purpose of TypeScript's type safety
 
 // Unknown type
 let maybe: unknown;
